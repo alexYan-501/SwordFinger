@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         testTreeAlgorithm()
         testStackAlgorithm()
         testDPAlgorithm()
+        testBacktrackingAlgorithm()
     }
     
     func testArrayAlgorithm() {
@@ -447,8 +448,19 @@ class ViewController: UIViewController {
         print("binary number of 1: \(total)")
         
         //测试丑数
-        let bigestUglyNumber = uglyNumber(n: 0)
+        let bigestUglyNumber = uglyNumber(n: 9)
         print("bigest ugly number:\(bigestUglyNumber)")
+    }
+    
+    //测试回溯法
+    func testBacktrackingAlgorithm() {
+        //测试矩阵中的路径
+        let matrix = [["a", "b", "c", "e"],
+                      ["s", "f", "c", "s"],
+                      ["a", "d", "e", "e"]]
+        let str = "abcb"
+        let result = MatrixPath().hasPath(matrix: matrix, str: str)
+        print("matrix has path: \(result)")
     }
     
     //createBST

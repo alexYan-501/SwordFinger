@@ -18,6 +18,7 @@
 		FA4CBABD255C0C060072A8F4 /* SingleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CBABC255C0C060072A8F4 /* SingleProjectTests.swift */; };
 		FA4CBAC8255C0C060072A8F4 /* SingleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CBAC7255C0C060072A8F4 /* SingleProjectUITests.swift */; };
 		FA660C4025689F04003DC55A /* ArrayAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA660C3F25689F04003DC55A /* ArrayAlgorithm.swift */; };
+		FA88F1E425836FC000CA0A7B /* BacktrackingAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA88F1E325836FC000CA0A7B /* BacktrackingAlgorithm.swift */; };
 		FAB2E9DE25695B9700222475 /* StringAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2E9DD25695B9700222475 /* StringAlgorithm.swift */; };
 		FAB2E9E3256BF29E00222475 /* FindAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2E9E2256BF29E00222475 /* FindAlgorithm.swift */; };
 		FAB2E9E8256C93DA00222475 /* LinkedListAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2E9E7256C93DA00222475 /* LinkedListAlgorithm.swift */; };
@@ -59,6 +60,7 @@
 		FA4CBAC7255C0C060072A8F4 /* SingleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleProjectUITests.swift; sourceTree = "<group>"; };
 		FA4CBAC9255C0C060072A8F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA660C3F25689F04003DC55A /* ArrayAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayAlgorithm.swift; sourceTree = "<group>"; };
+		FA88F1E325836FC000CA0A7B /* BacktrackingAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BacktrackingAlgorithm.swift; sourceTree = "<group>"; };
 		FAB2E9DD25695B9700222475 /* StringAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringAlgorithm.swift; sourceTree = "<group>"; };
 		FAB2E9E2256BF29E00222475 /* FindAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAlgorithm.swift; sourceTree = "<group>"; };
 		FAB2E9E7256C93DA00222475 /* LinkedListAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListAlgorithm.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				FAB2E9EC256F431200222475 /* TreeAlgorithm.swift */,
 				FA3FBF46257B5BE000597584 /* StackAlgorithm.swift */,
 				FA3FBF4B257BB56000597584 /* DPAlgorithm.swift */,
+				FA88F1E325836FC000CA0A7B /* BacktrackingAlgorithm.swift */,
 			);
 			path = SingleProject;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				FA3FBF47257B5BE000597584 /* StackAlgorithm.swift in Sources */,
 				FAB2E9ED256F431300222475 /* TreeAlgorithm.swift in Sources */,
 				FAB2E9E3256BF29E00222475 /* FindAlgorithm.swift in Sources */,
+				FA88F1E425836FC000CA0A7B /* BacktrackingAlgorithm.swift in Sources */,
 				FAB2E9DE25695B9700222475 /* StringAlgorithm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
